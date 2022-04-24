@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navbar">
+            <div class="div-enlaces">
+                <ul class="enlaces">
+                    <li class="li-enlace"><a href="">El color de la magia</a></li>
+                    <li class="li-enlace"><a href="">Ritos iguales</a></li>
+                    <li class="li-enlace"><a href="">Ronda de noche</a></li>
+                </ul>
+            </div>
+            <h1>Libros</h1>           
+        </nav>
+    </header>
+
+    <div class="parte2">
+        <section class="tabla-libros">
+            <h4 class="datos-libros">Datos sobre los Libros</h4>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Titulo</th>
+                        <th class="paginas">Paginas</th>
+                        <th>Genero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>El color de agua</td>
+                        <td>285</td>
+                        <td  class="genero">Literatura fantástica</td>
+                    </tr>
+                    <tr>
+                        <td>Ritos iguales</td>
+                        <td>290</td>
+                        <td  class="genero">Literatura fantástica</td>
+                    </tr>
+                    <tr>
+                        <td>Ronda de noche</td>
+                        <td>312</td>
+                        <td  class="genero">Literatura fantástica, viaje a través del tiempo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="seccion-form">
+            <h3>Registrate para obtener más información</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" value="">
+            <label for="email">email</label>
+            <input type="text" name="email" id="email" value="">
+            <fieldset class="fs">
+                <legend>Género favorito</legend>
+                <div class="radio">               
+                    <label for="miedo">Miedo
+                        <input type="radio" id="miedo" name="genero" value="miedo">
+                    </label>
+                    <label for="thriller">Thriller
+                        <input type="radio" id="thriller" name="genero" value="thriller">
+                    </label>
+                    <label for="comedia">Comedia
+                        <input type="radio" id="comedia" name="genero" value="comedia">
+                    </label>
+    
+                </div>
+            </fieldset>
+            <input class="submit" type="submit" value="Submit">
+        </section>
+    </div>
+    <div style="clear:both"></div>
+    
+    <main>        
+
+        <article>
+            <h2>El color de la magia</h2>
+            <details>
+                <summary>
+                    es la primera obra publicada de la saga del Mundodisco de Terry Pratchett. Esta novela, a diferencia de otras muchas de la serie (que no suelen tener ni siquiera capítulos), está dividida en "libros" que narran historias cortas consecutivas con los mismos protagonistas
+                    <figure>
+                        <img class="imagen" src="img/color-de-la-magia.png" alt="Portada del libro, el color de la magia">
+                        <figcaption>
+                            Portada libro el color de la magia 
+                        </figcaption>
+                    </figure>
+                </summary>
+            </details>
+            <a class="pieimg" href="">Más información</a>
+        </article>   
+    
+        <article class="a2">
+            <h2>Ritos iguales</h2>
+            <details>
+                <summary>
+                    es la tercera novela de la saga Mundodisco de Terry Pratchett. El título original, Equal Rites, suena como Equal Rights, "Igualdad de Derechos"
+                    <figure>
+                        <img class="imagen" src="img/ritos-iguales.png" alt="Portada del libro, ritos iguales">
+                        <figcaption>
+                            Portada libro el color de la magia 
+                        </figcaption>
+                    </figure>
+                </summary>
+            </details>
+            <a class="pieimg" href="">Más información</a>
+        </article>  
+        
+        <article>
+            <h2>Ronda de noche</h2>
+            <details>
+                <summary>
+                    es la 29ª novela de la saga de Mundodisco de Terry Pratchett, publicada en 2002, publicada en español en enero de 2010. Esta tiene como protagonista a Samuel Vimes en un extraño viaje durante lo que es el día más importante de su vida. 
+                    <figure>
+                        <img class="imagen" src="img/ronda-de-noche.png" alt="Portada del libro, ronda de noche">
+                        <figcaption>
+                            Portada libro el color de la magia 
+                        </figcaption>
+                    </figure>
+                </summary>
+            </details>
+            <a class="pieimg" href="">Más información</a>
+        </article>  
+                   
+    </main>
+    <footer>
+        <p><a href="">autor@Serafín Piña</a></p>
+    </footer>
+</body>
+</html>
