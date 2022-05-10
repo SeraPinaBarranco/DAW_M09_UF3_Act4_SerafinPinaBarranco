@@ -44,8 +44,9 @@ th, td{
     
     float: right;
 }
-h4{
-    text-align: center;
+h3{
+    font-size: xx-large;
+    /* text-align: center; */
 }
 .fs{
     padding-top: 15px;
@@ -70,16 +71,22 @@ h4{
     padding-right: 5px;
 }
 
+main{
+    display: flex;
+}
+
 main article{
-    display: inline-block;
-    /* display: inline-block; */
+    /*display: inline-block;*/
+     display: inline-block; 
+    
     width: 32%;
+    min-height: 400px;
     /* height: 500px; */
 }
     
 .a2{
-    position: relative;
-    top: -36px;
+    /*position: relative;
+     top: -36px; */
 }
 
 figure{
@@ -120,8 +127,10 @@ footer{
     }
 
     main{
+        display: inline;
         margin-top: 15px;
-    }    
+    } 
+       
 
     main article{
         display: inline-block;
@@ -136,7 +145,7 @@ footer{
     }
 }
 
-/* Ventana menor a 900 px */
+/* Ventana menor a 600 px */
 @media screen and (max-width:600px) {
     .li-enlace{
         margin: 0px 15px;
